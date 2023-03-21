@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* navigation css start */
+.navigation{
+    box-sizing: border-box;
+    background-color: navy;
+    height: 100px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 300px auto;
+
+}
+.logo{
+    margin-left: 80px;
+    border-radius: 30px;
+    height: 100px;
+    width: 200px;
+}
+.links{
+    padding: 25px 5px;
+    margin-left: 300px;
+    width: 100%;
+    display:grid;
+    grid-template-columns:100px 100px 120px 100px 100px 100px 150px 50px 50px;
+}
+.anc{
+
+    color: lightblue;
+    text-decoration: none;
+    font-size: x-large;
+}
+.i1i {
+    color: lightblue;
+    text-decoration: none;
+    font-size:x-large;
+}
+/* navigation css end  */
+
+/* Frame1  css start */
+.frm1{
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+#img1{
+    height: 700px;
+    width: 100%;
+}
+.contonimg{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 900px;
+    box-sizing: border-box;
+    height: 300px;
+    width:500px;
+}
+h1{
+    font-size: xx-large;
+    color: ivory;
+}
+h1:hover{
+    color: aqua;
+}
+.p1:hover{
+    color: aqua;
+}
+.p1{
+    font-size: larger;
+    color: ivory;
+}
+.btns{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    padding: 15px;
+
+}
+.btn{
+    background-color: transparent;
+    color: ivory ;
+    height: 50px;
+    width: 130px;
+    font-size: larger;
+    font-family: arial;
+    border-radius: 10px;
+}
+.LearnMore:hover{
+    /* font-family: arial;
+    background-color: transparent;
+    color: ivory ;
+    font-size: large;
+    height: 50px;
+    width: 130px; */
+    background-color: ivory ;
+    color: black;
+    font:bolder;
+}
+.GetInTouch:hover{
+    /* font-family: arial;
+    background-color: transparent;
+    color: ivory ;
+    font-size: large;
+    height: 50px;
+    width: 130px; */
+    background-color: ivory ;
+    color:black;
+    font:bolder;
+
+}
+/* Frame1  css end  */
+
+/* Frame2  css start */
+
+.frm2{
+    background-color:white;
+    padding-top: 50px;
+    height: 650px;
+    width: 100%;
+}
+.p2{
+    text-align: center;
+    color:skyblue;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+
+}
+.containerbox{
+    transition: all;
+    position: relative;
+    display: grid;
+    grid-template-columns:200px ;
+    column-gap: 50px;
+    /* background-color:blue; */
+    height:500px;
+    width: 1200px;
+    margin:20px auto;
+    
+}
+.bx{
+    border-color: black solid;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 20px 5px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+}
+.bx:hover{
+    transform: scale(1.2,1.2);
+}
+.box1{  
+     margin-left: 100px;
+}
+.box2{
+    margin-left: 450px;
+    }
+.box3{
+    margin-left: 800px;
+
+} 
+.con{
+    padding: 10px;
+    background-color: transparent;
+    margin-top: 370px;
+    margin-left: 470px;
+    position: absolute;
+    height: 70px;
+    width: 250px;
+}
+#seeallservices{
+    background-color: lightgrey;
+    color: navy ;
+    height: 50px;
+    width: 230px;
+    font-size: larger;
+    font-family: arial;
+    border-radius: 10px;
+}
+#seeallservices:hover{
+    background-color:navy ;
+    color: black;
+    font:bolder;
+}
+
+.i1{
+    color: navy;
+}
+.seeallservices .i1:hover{
+    color:black;
+}
+.i{
+    color:navy;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    font-size: 70px;
+}
+.content{
+    margin-top: 20px;
+    padding:10px;
+}
+
+/* Frame2  css end  */
+
+/* Frame3  css start  */
+.frm3{
+    padding: 50px;
+    position:relative;
+    height: 600px;
+    width: 100%;
+    background-color: lightgray;
+  
+}
+.p3{
+    text-align: center;
+    color: blueviolet;
+}
+.con1{
+    padding: 20px 50px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    height: 400px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 350px  350px 350px;
+    gap: 40px;
+    /* background-color: aquamarine; */
+}
+.c1{
+    /* background-color: beige; */
+    padding: 10px;
+    font-size: larger;
+    font-family: cambria; 
+    transition: all;
+}
+.c1:hover{
+    transform: scale(1.2,1.2);
+}
+
+/* Frame3  css end  */
+
+/* Frame 4 css start */
+.frm4{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color:white;
+}
+.circle{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.cl1{
+   
+    margin: 100px 0px 0px 400px;
+    background:radial-gradient(blue,navy,blue);
+}
+.cl2{
+    padding: 30px;
+    margin: 150px 0px 0px 450px;
+    background-color: azure;
+}
+h4{
+    color: blue;
+    text-align: center;
+    font-size: 100px;
+}
+#cl2con{
+    text-align: center;
+    font-size: 30px;
+}
+.cl3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.2);
+    background:radial-gradient(blue,navy,blue);
+    margin: 80px 0px 0px 800px;
+}
+.cl4{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.2);
+    background:radial-gradient(blue,navy,blue);
+    margin: 200px 0px 0px 850px;
+}
+.cont{
+    display:grid;
+    gap: 20px;
+    position: absolute;
+    height: 400px;
+    width: 250px;
+    margin: 100px 0px 0px 1000px;
+}
+h5{
+    color: blue;
+    text-align: center;
+    font-size: 40px; 
+}
+.contp{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+/* /frame 4 css end */
